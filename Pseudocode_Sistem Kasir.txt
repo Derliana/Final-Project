@@ -1,0 +1,47 @@
+Algoritma Program Kasir
+
+INPUT "Masukkan kode Item:"
+INPUT "Masukkan jumlah item:"
+
+IF (kode_item 20221) then
+    harga_item = 10.000
+    jumlah_item = 3
+    total_harga1 = (harga_item*jumlah_item);
+ELSE IF (kode_item 21201) then
+    harga_item = 5.000
+    jumlah_item = 5
+    total_harga2 = (harga_item*jumlah_item);
+ElSE IF (kode_item 23121) then
+    harga_item = 15.000
+    jumlah_item = 2
+    total_harga2 = (harga_item*jumlah_item);
+
+INPUT "tambah item lagi?(y/n):" pilihan
+WHILE pilihan = 'y'
+DISPLAY "kode item:", item
+DISPLAY "total jumlah item:", jumlah_item
+
+WHILE pilihan = 'n'
+PRINT "transaksi selesai";
+total_keseluruhanya = total_harga1 + total_harga2 + total_harga3;
+PRINT "jumlah item belanja seluruhnya "+jumlah seluruhnya;
+
+ElSE
+
+    PRINT "uang tidak mencukupi pembelanjaan. silahkan masukkan uang yang cukup "
+    PRINT "coba lagi";
+    
+    PRINT "masukkan uang pembayaran";
+    INPUT uang_pembayaran
+
+    uang_kembalian = pembayaran-total_harga;
+    kembalian = Rp "+uang_kembalian+ ";
+
+ELSE
+PRINT "bukti pembayaran"
+PRINT"Jumlah item yang dibeli"
+PRINT "total harga item :rp "+ item
+PRINT “Uang pembayaran : rp “ + uang_pembayaran
+PRINT “ Kembalian : Rp “+ uang_kembalian
+
+STOP
